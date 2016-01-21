@@ -1,5 +1,5 @@
 {
-  "name": "tradle-transport-p2p",
+  "name": "@tradle/transport-p2p",
   "version": "1.0.0",
   "description": "tradle p2p-based transport (over udp), adapter for zlorp",
   "main": "index.js",

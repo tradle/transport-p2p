@@ -1,0 +1,39 @@
+{
+  "name": "tradle-transport-p2p",
+  "version": "1.0.0",
+  "description": "tradle p2p-based transport (over udp), adapter for zlorp",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tradle/transport-p2p"
+  },
+  "keywords": [
+    "tradle",
+    "transport",
+    "p2p",
+    "udp",
+    "otr"
+  ],
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tradle/transport-p2p/issues"
+  },
+  "homepage": "https://github.com/tradle/transport-p2p",
+  "dependencies": {
+    "array-find": "^1.0.0",
+    "debug": "^2.2.0",
+    "q": "^1.4.1",
+    "typeforce": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tradle/constants": "^1.1.7",
+    "memdown": "^1.1.1",
+    "stream-collector": "^1.0.1",
+    "tape": "^4.4.0",
+    "zlorp": "^2.0.1"
+  }
+}
